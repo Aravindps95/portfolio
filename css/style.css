@@ -1,0 +1,56 @@
+body {
+  font-family: 'kanit', sans-serif;
+  font-weight: 700;
+}
+
+.horline {
+  border-bottom: 3px solid #eee;
+}
+
+.title-logo {
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: left;
+  vertical-align: center;
+}
+
+.my-name {
+  margin-top: 20px;
+  vertical-align:center;
+}
+
+.super-title {
+  font-size: 60px;
+}
+
+.some-title {
+  font-weight: 300;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-link {
+	text-align:center;
+} 
+
+.footer-text {
+  text-align:center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .title-logo {
+    text-align: center;
+  }
+  
+  .my-name {
+    text-align: center;
+  }
+  
+  .featured-header {
+    text-align: center;
+  }
+}
+
